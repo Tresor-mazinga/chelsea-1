@@ -1,0 +1,236 @@
+/*------ Imported Google Fonts----------*/
+@import url('https://fonts.googleapis.com/css2?family=Gugi&family=Mr+Dafoe&family=Rajdhani:wght@500&family=Roboto:wght@300&display=swap');
+
+/*----CSS rules to specify families
+font-family: 'Gugi', cursive;
+font-family: 'Mr Dafoe', cursive;
+font-family: 'Rajdhani', sans-serif;
+font-family: 'Roboto', sans-serif;--*/
+html,body{
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+/*---  Our Css Variables -------------*/
+:root{
+    --Gugi-font:'Gugi', cursive;
+    --Mr-dafoe:'Mr Dafoe', cursive;
+    --Rajdhani:'Rajdhani', sans-serif;
+    --Rotoboto:'Roboto', sans-serif;
+    --bggradient:linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    --bggrarient2: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    --bggradient3:linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+    --bggradient4: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+    --navcolor: #2575fc;
+    --color:linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    
+}
+/*--- Our Fonts Googles Variables Classes-------*/
+.color{
+    color: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
+.Gugi-font{
+    font-family: var(--Gugi-font);
+}
+.Rajdhani{
+ font-family:var(--Rajdhani);
+}
+.Mr-dafoe{
+    font-family:var(--Mr-dafoe);
+}
+.Roboto{
+    font-family: var(--Rotoboto);
+}
+.font-size-20{
+ font-size: 20px;
+}
+.font-size-15{
+ font-size: 15px;
+}
+   
+
+/*--- Our Background Css Variables Classes-------*/
+.navcolor{
+    color:#2575fc; 
+}
+.bggradient{
+    background: var(--bggradient);
+}
+.bggradient2{
+    background: var(--bggradient2);
+}
+.bggradient3{
+    background: var(--bggradient3);
+}
+.bggradient4{
+    background: var(--bggradient4);
+}/*============== END CSS VARIABLES =============*/
+
+/*---- Start of Navbar Section----*/
+.header-area .main-menu .navbar-brand{
+    padding:0 2rem 0 3rem;
+    font-family: var(--Gugi-font);
+    border-radius: 2rem;
+}
+.header-area .main-menu .nav-item .nav-link{
+    font-family: var(--Rajdhani);
+}
+.navbar.scroll{
+    background: #34aaaa;
+    transition: background 1s ease;
+}
+/*---xx End of Navbar Section xx---*/
+
+/*--  start of Banner Section ---*/
+.site-main .site-banner .site-title .hello{
+    padding-top: 13rem;
+    font-weight: 500;
+
+}
+.site-main .site-banner .site-title .hello::after{
+   content: "";
+   height: 2px;
+   width: 15vw;
+   background:var(--bggradient);
+   display: inline-block;
+   margin-left: 5%;
+   transform: translateY(-10px);
+}
+.site-main .site-banner .site-title h1{
+    font-size: 3rem;
+    font-weight: 500;
+}
+.titl-3{
+    padding-top: 0.5rem !important;
+    font-size: 30px !important;
+}
+.site-main .site-banner .banner-image{
+    padding-top: 8rem;
+}
+.site-main .site-banner .site-button{
+    padding-top: 1rem;
+}
+.site-main .site-button .btn-primary{
+    margin-right: 2rem;
+}
+.site-main .site-button .btn-primary:hover{
+    background-clip: padding-box;
+    background: whitesmoke;
+    color: black;
+}
+.site-main .site-button .btn-primary::after{
+  position: absolute;
+  top: -2px; left: -2px;
+  bottom: -2px; right:-2px;
+  background: var(--bggradient);
+  content: "";
+  z-index: -1;
+  border-radius: 10px;
+}
+.site-button .button{
+    position: relative;
+    border-radius: 10px;
+    margin-top: 2rem;
+    font-size: 1.1rem;
+}
+.btn-secondary{
+    background: white;
+    background-clip: padding-box;
+    transition: background 6s ease;
+    color: black;
+    border: 1px solid #2575fc;
+}
+.btn-secondary:hover{
+   background: var(--bggradient);
+   color: white;
+   box-shadow: var(--bggradient3);
+}/*--  End of Banner Section ---*/
+
+/*-- Start of About-Me Section  ------*/
+.about-me{
+    padding-top: 8rem;
+}
+.about-me .about-title h5, h1{
+   padding-left: 0rem !important;
+   
+}/*-- End of About-Me Section  ------*/
+
+/*--- Start of My Skill section---*/
+  .skill{
+        padding-top: 8rem;
+    }
+/*--- End of My Skill section---*/
+
+/*-- Start of Services Area Section---*/
+.service-area{
+    padding-top: 8rem;
+}
+ .panel{
+     border: 1px solid #96baf8 ;
+ }
+ .icons{
+     color: #4facfe;
+ }
+ .icona{
+     color: #4facfe;
+ }
+  /*-- End of Services Area Section---*/
+
+/*---- Start of Project-Area Section------*/
+.project-area{
+    margin-top: 8rem;
+    
+}
+.project-area .grid{
+    margin-left: 2rem !important;
+}
+.project-area .button-group button{
+    background: transparent;
+    border: none;
+    font: normal 600 16px/130px var(--Rajdhani);
+}
+.project-area .button-group button + button{
+    padding-left: 1rem;
+}
+button:focus,
+button:active
+button:hover
+.btn:active,
+.btn.active{
+    outline: 0px !important;
+    box-shadow: none !important;
+}
+.project-card:hover{
+    -webkit-box-shadow:-1px 9px 40px -12px rgba(0,0,0,0.75) ;
+    -moz-box-shadow:-1px 9px 40px -12px rgba(0,0,0,0.75) ;
+    box-shadow:-1px 9px 40px -12px rgba(0,0,0,0.75) ;
+}
+/*---x End of Project-Area Section------*/
+
+/*-- Testmony Section ---*/
+#reviews{
+    margin-top: 8rem;
+}
+#reviews .testmony-title{
+    padding-top: 3rem;  
+}
+#reviews .testmony-title h1{
+    font-size: 30px;  
+}
+#reviews .testmony-title p{
+    padding: 2rem;  
+}
+.review-img{
+    width: 150px;
+}
+.review-item{
+    background: rgba(255,255,255,0.7);
+    clip-path: polygon(5% 0, 100% 0, 90% 100%, 0 100%);
+}/*---- End of Carousel Section------*/
+
+/*-- Testmony Section ---*/
+
+
+

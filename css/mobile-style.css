@@ -1,0 +1,265 @@
+@media screen and (max-width:320px){
+           #reviews{
+               margin: 0rem 0rem;
+           }
+        /*--  start of Banner Section ---*/
+        .site-main .site-banner .site-title h2{
+            padding-top: 13rem;
+            font-weight: 500;
+        }
+        .title-1{
+            font-size: 2rem !important;
+            font-weight: 600;
+            
+        }
+        .site-main .site-banner .site-title h3{
+            font-size: 1rem !important;
+            font-weight: 500;
+        }
+        .site-main .site-banner .btn-primary{
+            font-size: 1rem !important;
+            padding: 0.1rem;
+            width: 6rem;
+        }
+        .site-main .site-banner .btn-secondary{
+            font-size: 1rem !important;
+            padding: 0.1rem;
+            width: 6rem;
+        }
+        .site-main .site-banner .site-title h2::after{
+            content: "";
+            height: 2px;
+            width: 40vw !important;
+            
+       } 
+        .site-main .site-banner .banner-image{
+            padding-top: 8rem;
+        }
+        /*------ Start of About-Me -------*/
+        #about{
+            padding-top:8rem !important;
+        }
+        .me{
+            padding: 1rem !important; 
+        }
+
+        .about-image{
+        margin-left: 1rem;
+        width: 100rem;
+        }
+            .about-text h5{
+            font-size: 20px !important;
+            font-weight: 500;
+        }
+        .btn-download{
+            margin-top: 1rem;
+            font-size: 0.5rem;
+        }
+        .btn-hire{
+            margin-top: 1rem;
+            font-size: 0.5rem;
+        }
+        .skill{
+        padding: 1rem !important;
+        margin-top: 8rem !important;
+        }
+       
+        /*---- Project-Area ---*/
+         .project-area .element-item{
+             margin: 2rem -1rem !important;
+         }
+         .project-area .element-item .our-project{
+             margin-left: 0rem !important;
+         }
+        /*---- Carousel ---*/
+
+    
+        footer{
+            margin-top: 8rem;
+        }
+}
+
+@media screen and (max-width:375px){
+     /*--  start of Banner Section ---*/
+        .site-main .site-banner .site-title h2{
+            padding-top: 13rem;
+            font-weight: 500;
+        }
+        .title-1{
+            font-size: 2rem !important;
+            font-weight: 600;
+            
+        }
+        .site-main .site-banner .site-title h3{
+            font-size: 1rem !important;
+            font-weight: 500;
+        }
+        .site-main .site-banner .btn-primary{
+            font-size: 1rem !important;
+            padding: 0.1rem;
+            width: 6rem;
+        }
+        .site-main .site-banner .btn-secondary{
+            font-size: 1rem !important;
+            padding: 0.1rem;
+            width: 6rem;
+        }
+        .site-main .site-banner .site-title h2::after{
+            content: "";
+            height: 2px;
+            width: 40vw !important;
+            
+       } 
+        .site-main .site-banner .banner-image{
+            padding-top: 8rem;
+        }
+        /*------ Start of About-Me -------*/
+        #about{
+            padding-top:8rem !important;
+        }
+        .me{
+            padding: 1rem !important; 
+        }
+
+        .about-image{
+        margin-left: 1rem;
+        width: 100rem;
+        }
+            .about-text h5{
+            font-size: 20px !important;
+            font-weight: 500;
+        }
+        .btn-download{
+            margin-top: 1rem;
+            font-size: 0.5rem;
+        }
+        .btn-hire{
+            margin-top: 1rem;
+            font-size: 0.5rem;
+        }
+        .skill{
+        padding: 1rem !important;
+        margin-top: 8rem !important;
+        }
+       .project-area{
+        padding: 0rem !important;
+       
+        }
+        .project-area .card{
+            margin-bottom: 2rem;
+        }
+       .project-area .button-group button{
+            padding-left: 0rem;
+        }
+        /*---- Carousel ---*/
+        #reviews{
+            margin-top: 8rem;
+        }
+    
+        #reviews .testmony-title h1{
+            font-size: 30px;  
+        }
+        #reviews .testmony-title p{
+            padding: 2rem;  
+        }
+                
+    .carousel-col{
+        margin: 2rem;
+        border: rgb(228, 224, 223) 10px solid;
+    }
+      .carousel-control-next-icon{
+            color: white !important;
+    }
+    footer{
+        margin-top: 8rem;
+    }
+
+}
+
+@media screen and (max-width:425px){
+      /*--  start of Banner Section ---*/
+        .site-main .site-banner .site-title h2{
+            padding-top: 13rem;
+            font-weight: 500;
+        }
+        .title-1{
+            font-size: 2rem !important;
+            font-weight: 600;
+            
+        }
+        .site-main .site-banner .site-title h3{
+            font-size: 1rem !important;
+            font-weight: 500;
+        }
+        .site-main .site-banner .btn-primary{
+            font-size: 1rem !important;
+            padding: 0.1rem;
+            width: 6rem;
+        }
+        .site-main .site-banner .btn-secondary{
+            font-size: 1rem !important;
+            padding: 0.1rem;
+            width: 6rem;
+        }
+        .site-main .site-banner .site-title h2::after{
+            content: "";
+            height: 2px;
+            width: 40vw !important;
+            
+       } 
+        .site-main .site-banner .banner-image{
+            padding-top: 8rem;
+        }
+        /*------ Start of About-Me -------*/
+       
+        .me{
+            margin:0rem !important;
+            padding-top: 7rem !important;
+        }
+
+        .about-image{
+        margin-left: 1rem;
+        width: 100rem;
+        padding-top: 2rem;
+        }
+            .about-text h5{
+            font-size: 20px !important;
+            font-weight: 500;
+        }
+        .btn-download{
+            margin-top: 1rem;
+            font-size: 0.5rem;
+        }
+        .btn-hire{
+            margin-top: 1rem;
+            font-size: 0.5rem;
+        }
+        .skill{
+        padding: 1rem !important;
+        margin-top: 8rem !important;
+        }
+      .project-area .grid .project-card{
+          margin-left: 1rem !important;
+          width: 20%;
+        }
+        .project-area .card{
+            margin-bottom: 2rem;
+        }
+       .project-area .button-group button{
+            padding-left: 0rem;
+        }
+
+        /*---- Carousel ---*/
+        
+    .carousel-col{
+        margin: 2.5rem !important;
+        border: whitesmoke 10px solid;
+    }
+      .carousel-control-next-icon{
+            color: white !important;
+    }
+    footer{
+        margin-top: 8rem;
+    }
+
+}
